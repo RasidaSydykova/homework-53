@@ -1,0 +1,57 @@
+body {
+  background-color: pink;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+button {
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.form-block {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+.text-field {
+  width: 500px;
+  height: 20px;
+  margin-right: 10px;
+  padding: 5px;
+  background-color: transparent;
+}
+
+.add-button {
+  padding: 7px 12px;
+}
+
+.add-button:hover {
+  background-color: lightgreen;
+}
+
+.to-do-lists-block {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.to-do-list {
+  border: 1px solid black;
+  width: 500px;
+  margin-right: 10px;
+  padding: 5px;
+}
+
+.delete-button {
+  padding: 5px;
+}
+
+.delete-button:hover {
+  background-color: #ff4747;
+}
